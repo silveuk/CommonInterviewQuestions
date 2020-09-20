@@ -1,0 +1,14 @@
+ static bool isPalindrone (string s)
+        {
+            s = s.ToLower();
+            string r = "";
+            for (var j =s.Length-1; j>=0;j--)
+            {
+                r += s[j];
+            }
+
+            return r == s; 
+        }
+        
+        // to compare strings in C# using only string datatypes
+        // other ways could be with arrays or LINQ will add more later.
